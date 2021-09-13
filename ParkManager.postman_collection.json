@@ -1,0 +1,210 @@
+{
+	"info": {
+		"_postman_id": "ddfa7a41-d099-4cc5-9b5a-e62545e09c7d",
+		"name": "ParkManager",
+		"description": "# Introduction\nWhat does your API do?\n\n# Overview\nThings that the developers should know about\n\n# Authentication\nWhat is the preferred way of using the API?\n\n# Error Codes\nWhat errors and status codes can a user expect?\n\n# Rate limit\nIs there a limit to the number of requests an user can send?",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1 - localhost:8080/parkingManagement/park",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"vehiclePlate\": \"34-SO-1988\", \"vehicleColour\": \"Black\", \"vehicleType\":\"Car\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/parkingManagement/park",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"parkingManagement",
+						"park"
+					]
+				},
+				"description": "get all parking list"
+			},
+			"response": []
+		},
+		{
+			"name": "2 - localhost:8080/parkingManagement/park",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"vehiclePlate\": \"34-BO-1987\", \"vehicleColour\": \"Red\", \"vehicleType\":\"Truck\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/parkingManagement/park",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"parkingManagement",
+						"park"
+					]
+				},
+				"description": "get all parking list"
+			},
+			"response": []
+		},
+		{
+			"name": "3 - localhost:8080/parkingManagement/park",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"vehiclePlate\": \"34-VO-2018\", \"vehicleColour\": \"Blue\", \"vehicleType\":\"Jeep\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/parkingManagement/park",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"parkingManagement",
+						"park"
+					]
+				},
+				"description": "get all parking list"
+			},
+			"response": []
+		},
+		{
+			"name": "4 - localhost:8080/parkingManagement/park",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"vehiclePlate\": \"34-HBO-2020\", \"vehicleColour\": \"Black\", \"vehicleType\":\"Truck\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/parkingManagement/park",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"parkingManagement",
+						"park"
+					]
+				},
+				"description": "get all parking list"
+			},
+			"response": []
+		},
+		{
+			"name": "5 - localhost:8080/parkingManagement/leave",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "3",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/parkingManagement/leave",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"parkingManagement",
+						"leave"
+					]
+				},
+				"description": "get all parking list"
+			},
+			"response": []
+		},
+		{
+			"name": "6 - localhost:8080/parkingManagement/park",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"vehiclePlate\": \"34-LO-2000\", \"vehicleColour\": \"White\", \"vehicleType\":\"Car\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/parkingManagement/park",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"parkingManagement",
+						"park"
+					]
+				},
+				"description": "get all parking list"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/parkingManagement/status",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8080/parkingManagement/status",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"parkingManagement",
+						"status"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
